@@ -1,37 +1,48 @@
+# Calculator App
+
+[](https://img.shields.io/badge/Microverse-blueviolet)
+
+## About
+
+Create a basic react app using `create-react-app ` command
+
+## Built With
+
+- React
+
 # Setup
 
 [Clone App](https://github.com/nganifaith/React_Calculator).
 
-## Available Scripts
+- cd to React_Calculator
+- run `npm install`
+- run `git checkout feature`
+- run `npm start` app opens on [http://localhost:3000](http://localhost:3000)
 
-In the project directory, you can run:
+### Prerequisites
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-## Technology.
-
-Main technology use is React.
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Basic knowledge about React:
 
 ## Live site
 
 [Live](https://boiling-anchorage-63054.herokuapp.com/)
+
+## Author
+
+👤 **Ngani Faith**
+
+- GitHub: [@nganifaith](https://github.com/nganifaith)
+- Twitter: [@Bright_Ngani](https://twitter.com/bright_ngani)
+- LinkedIn: [Ngani Faith](https://www.linkedin.com/in/ngani-faith/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/nganifaith/JS_ToDOList/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
