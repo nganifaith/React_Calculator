@@ -5,10 +5,8 @@ import Display from './Display';
 function App() {
   return (
     <div className="App">
-      <div className="calc-wrapper">
-        <Display />
-        <ButtonPanel />
-      </div>
+      <Display />
+      <ButtonPanel />
     </div>
   );
 }
