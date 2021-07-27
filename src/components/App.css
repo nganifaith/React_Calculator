@@ -2,6 +2,13 @@ body {
   background-color: #000;
 }
 
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .row {
   display: flex;
 }
