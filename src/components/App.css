@@ -2,12 +2,12 @@ body {
   background-color: #000;
 }
 
-.App {
+/* .App {
   background-color: #fff;
   width: 400px;
   border-radius: 16px;
   margin-top: 10px;
-}
+} */
 
 .row {
   display: flex;

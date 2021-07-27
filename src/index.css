@@ -5,10 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-#root {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#root {
+  background-color: #fff;
+  width: 400px;
+  border-radius: 16px;
+  margin-top: 10px;
 }
