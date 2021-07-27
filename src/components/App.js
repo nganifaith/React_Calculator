@@ -1,10 +1,12 @@
 import './App.css';
-import Button from './Button';
+import ButtonPanel from './ButtonPanel';
 
 function App() {
   return (
     <div className="App">
-      <Button />
+      <div className="calc-wrapper">
+        <ButtonPanel />
+      </div>
     </div>
   );
 }
