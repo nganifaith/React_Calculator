@@ -1,12 +1,7 @@
-body {
-  background-color: #000;
-}
-
 .App {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  background-color: #fff;
+  width: 400px;
+  border-radius: 16px;
 }
 
 .row {
