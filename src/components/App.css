@@ -2,13 +2,6 @@ body {
   background-color: #000;
 }
 
-/* .App {
-  background-color: #fff;
-  width: 400px;
-  border-radius: 16px;
-  margin-top: 10px;
-} */
-
 .row {
   display: flex;
 }
