@@ -1,15 +1,4 @@
-body {
-  background-color: #000;
-}
-
 .App {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.calc-wrapper {
   background-color: #fff;
   width: 400px;
   border-radius: 16px;
