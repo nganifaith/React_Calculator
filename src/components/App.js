@@ -1,7 +1,7 @@
 import './App.css';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
-import Calculate from '../logic/calculate';
+import Calculate from '../Logic/calculate';
 
 function App() {
   return (
