@@ -1,7 +1,7 @@
 import Big from 'big.js';
 
 const Operate = (number1, number2, operation) => {
-  if (number1 === 0) {
+  if (!number1) {
     return number2;
   }
   if (number1 === 'Infinity') {
@@ -19,7 +19,7 @@ const Operate = (number1, number2, operation) => {
     case '+':
       results = numberOne.plus(numberTwo);
       break;
-    case '*':
+    case 'X':
       results = numberOne.times(numberTwo);
       break;
     case '/':
@@ -30,7 +30,7 @@ const Operate = (number1, number2, operation) => {
       }
       break;
     default:
-      results = numberTwo.div(100);
+      results = numberOne.div(100);
       break;
   }
   return `${results}`;

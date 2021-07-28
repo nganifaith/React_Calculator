@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Button from './Button';
 
 const btnRows = [
@@ -8,16 +9,24 @@ const btnRows = [
   ['0', '.', '='],
 ];
 
-const ButtonPanel = () => (
+const ButtonPanel = ({ handleClick }) => (
   <div>
     {btnRows.map((row) => (
       <div key={row[0]} className="row">
         {row.map((symbol) => (
-          <Button key={symbol} symbol={symbol} />
+          <Button
+            key={symbol}
+            symbol={symbol}
+            onClick={() => handleClick(symbol)}
+          />
         ))}
       </div>
     ))}
   </div>
 );
+
+ButtonPanel.propTypes = {
+  handleClick: PropTypes.func.isRequired,
+};
 
 export default ButtonPanel;
