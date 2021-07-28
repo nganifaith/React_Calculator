@@ -1,6 +1,13 @@
 import Big from 'big.js';
 
-const operate = (number1, number2, operation) => {
+const Operate = (number1, number2, operation) => {
+  if (number1 === 0) {
+    return number2;
+  }
+  if (number1 === 'Infinity') {
+    return 'Error';
+  }
+
   let results = 0;
   const numberOne = new Big(number1);
   const numberTwo = new Big(number2);
@@ -29,4 +36,4 @@ const operate = (number1, number2, operation) => {
   return `${results}`;
 };
 
-export default operate;
+export default Operate;
