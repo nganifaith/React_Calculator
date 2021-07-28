@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Display />
-      <ButtonPanel onCalculate={Calculate} />
+      <ButtonPanel onCal={Calculate} />
     </div>
   );
 }
