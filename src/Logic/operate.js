@@ -19,7 +19,7 @@ const Operate = (number1, number2, operation) => {
     case '+':
       results = numberOne.plus(numberTwo);
       break;
-    case '*':
+    case 'X':
       results = numberOne.times(numberTwo);
       break;
     case '/':
@@ -29,9 +29,11 @@ const Operate = (number1, number2, operation) => {
         results = 'Infinity';
       }
       break;
-    default:
+    case '%':
       results = numberTwo.div(100);
       break;
+    default:
+      results = 0;
   }
   return `${results}`;
 };
