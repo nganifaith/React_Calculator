@@ -13,7 +13,6 @@ const Calculate = (data, buttonName) => {
     next = new Big(next).times(-1);
   } else if (Number.isInteger(parseInt(buttonName, 10))) {
     next = `${next || ''}${buttonName}`;
-
   } else if (buttonName === '.') {
     next = `${next || ''}`;
     if (!next.includes('.')) {
