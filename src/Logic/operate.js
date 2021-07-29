@@ -1,7 +1,7 @@
 import Big from 'big.js';
 
 const Operate = (number1, number2, operation) => {
-  if (number1 === 0) {
+  if (!number1) {
     return number2;
   }
   if (number1 === 'Infinity') {
