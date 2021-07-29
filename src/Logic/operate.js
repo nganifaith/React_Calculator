@@ -29,9 +29,11 @@ const Operate = (number1, number2, operation) => {
         results = 'Infinity';
       }
       break;
-    default:
-      results = numberOne.div(100);
+    case '%':
+      results = numberTwo.div(100);
       break;
+    default:
+      results = 0;
   }
   return `${results}`;
 };
