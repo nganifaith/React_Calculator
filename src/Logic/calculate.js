@@ -17,6 +17,9 @@ const Calculate = (data, buttonName) => {
     total = Operate(total, next, operation);
     next = null;
     operation = null;
+  } else if (buttonName === '%') {
+    total = Operate(next, 0, operation);
+    next = 0;
   } else {
     if (!total || !operation) {
       operation = buttonName;
