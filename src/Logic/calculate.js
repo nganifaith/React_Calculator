@@ -15,7 +15,7 @@ const Calculate = (data, buttonName) => {
   } else if (buttonName === '.') {
     next = `${next || ''}`;
     if (!next.includes('.')) {
-      next = `{$next || ''}${buttonName}`;
+      next = `${next || ''}${buttonName}`;
     }
   } else if (buttonName === '=') {
     total = Operate(total, next, operation);
