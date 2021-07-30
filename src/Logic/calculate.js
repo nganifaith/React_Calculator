@@ -32,8 +32,8 @@ const Calculate = (data, buttonName) => {
       operation = buttonName;
       total = total || next;
     } else {
-      operation = buttonName;
       total = Operate(total, next, operation);
+      operation = buttonName;
     }
     next = 0;
   }
