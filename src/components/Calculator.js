@@ -16,8 +16,11 @@ const Calculator = () => {
   };
   return (
     <div className="App">
-      <Display result={data.next || data.total} />
-      <ButtonPanel handleClick={handleClick} />
+      <h4>Lets do some math!</h4>
+      <div className="calc">
+        <Display result={data.next || data.total} />
+        <ButtonPanel handleClick={handleClick} />
+      </div>
     </div>
   );
 };

@@ -3,8 +3,18 @@
   width: 700px;
   border-radius: 16px;
   margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .row {
   display: flex;
+}
+
+h4 {
+  width: 25%;
+}
+
+.calc {
+  flex: 1;
 }
