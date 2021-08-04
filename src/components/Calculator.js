@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import './App.css';
+import './Calculator.css';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
 import Calculate from '../Logic/calculate';
 
-const App = () => {
+const Calculator = () => {
   const [data, setData] = useState({
     next: null,
     total: null,
@@ -22,4 +22,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Calculator;
