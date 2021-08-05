@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import './App.css';
+import './Calculator.css';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
 import Calculate from '../Logic/calculate';
 
-const App = () => {
+const Calculator = () => {
   const [data, setData] = useState({
     next: null,
     total: null,
@@ -16,10 +16,13 @@ const App = () => {
   };
   return (
     <div className="App">
-      <Display result={data.next || data.total} />
-      <ButtonPanel handleClick={handleClick} />
+      <h4>Lets do some math!</h4>
+      <div className="calc">
+        <Display result={data.next || data.total} />
+        <ButtonPanel handleClick={handleClick} />
+      </div>
     </div>
   );
 };
 
-export default App;
+export default Calculator;

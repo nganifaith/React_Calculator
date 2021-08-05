@@ -1,0 +1,21 @@
+.App {
+  background-color: #fff;
+  border-radius: 16px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+h4 {
+  width: 25%;
+  text-align: start;
+}
+
+.calc {
+  flex: 1;
+}
