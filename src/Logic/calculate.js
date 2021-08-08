@@ -22,10 +22,7 @@ const Calculate = (data, buttonName) => {
     next = null;
     operation = null;
   } else if (buttonName === '%') {
-    total = Operate(next, 0, operation);
-    next = 0;
-  } else if (buttonName === '%') {
-    total = Operate(next, 0, operation);
+    total = Operate(next, 0, buttonName);
     next = 0;
   } else {
     if (!total || !operation) {

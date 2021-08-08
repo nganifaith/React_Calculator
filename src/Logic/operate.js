@@ -30,7 +30,7 @@ const Operate = (number1, number2, operation) => {
       }
       break;
     case '%':
-      results = numberTwo.div(100);
+      results = numberOne.div(100);
       break;
     default:
       results = 0;
