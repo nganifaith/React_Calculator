@@ -19,6 +19,11 @@ Create a basic react app using `create-react-app ` command
 - run `git checkout feature`
 - run `npm start` app opens on [http://localhost:3000](http://localhost:3000)
 
+## Test
+
+- run test `npm test`
+  ![test](./test.png)
+
 ### Prerequisites
 
 Basic knowledge about React:
