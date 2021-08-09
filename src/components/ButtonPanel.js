@@ -13,11 +13,13 @@ const ButtonPanel = ({ handleClick }) => (
   <div>
     {btnRows.map((row) => (
       <div key={row[0]} className="row">
-        {row.map((symbol) => (
+        {row.map((symbol, idx) => (
           <Button
             key={symbol}
             symbol={symbol}
             onClick={() => handleClick(symbol)}
+            color={idx === row.length - 1 ? '#f5923e' : undefined}
+            wide={symbol === '0'}
           />
         ))}
       </div>
