@@ -1,10 +1,14 @@
 # Calculator App
 
-[](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## About
 
 Create a basic react app using `create-react-app ` command
+
+## Calculator
+
+![home](./home.png)
 
 ## Built With
 
