@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders pages correctly 1`] = `
+<div
+  className="App"
+>
+  <h4>
+    Lets do some math!
+  </h4>
+  <div
+    className="calc"
+  >
+    <div
+      className="input-wrapper"
+    >
+      <div
+        className="result"
+      >
+        <h3 />
+      </div>
+    </div>
+    <div>
+      <div
+        className="row"
+      >
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+          type="button"
+        >
+          %
+        </button>
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#f5923e",
+            }
+          }
+          type="button"
+        >
+          /
+        </button>
+      </div>
+      <div
+        className="row"
+      >
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+          type="button"
+        >
+          7
+        </button>
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+          type="button"
+        >
+          8
+        </button>
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+          type="button"
+        >
+          9
+        </button>
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#f5923e",
+            }
+          }
+          type="button"
+        >
+          X
+        </button>
+      </div>
+      <div
+        className="row"
+      >
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+          type="button"
+        >
+          4
+        </button>
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+          type="button"
+        >
+          5
+        </button>
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+          type="button"
+        >
+          6
+        </button>
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#f5923e",
+            }
+          }
+          type="button"
+        >
+          -
+        </button>
+      </div>
+      <div
+        className="row"
+      >
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+          type="button"
+        >
+          1
+        </button>
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+          type="button"
+        >
+          2
+        </button>
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+          type="button"
+        >
+          3
+        </button>
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#f5923e",
+            }
+          }
+          type="button"
+        >
+          +
+        </button>
+      </div>
+      <div
+        className="row"
+      >
+        <button
+          className="button-wrapper wide"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+          type="button"
+        >
+          0
+        </button>
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+          type="button"
+        >
+          .
+        </button>
+        <button
+          className="button-wrapper "
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#f5923e",
+            }
+          }
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

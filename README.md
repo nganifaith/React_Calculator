@@ -1,10 +1,14 @@
 # Calculator App
 
-[](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## About
 
 Create a basic react app using `create-react-app ` command
+
+## Calculator
+
+![home](./home.png)
 
 ## Built With
 
@@ -18,6 +22,11 @@ Create a basic react app using `create-react-app ` command
 - run `npm install`
 - run `git checkout feature`
 - run `npm start` app opens on [http://localhost:3000](http://localhost:3000)
+
+## Test
+
+- run test `npm test`
+  ![test](./test.png)
 
 ### Prerequisites
 
