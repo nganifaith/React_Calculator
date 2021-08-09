@@ -8,8 +8,8 @@ const Calculate = (data, buttonName) => {
     next = null;
     operation = null;
   } else if (buttonName === '+/-') {
-    total *= -1;
-    next *= -1;
+    total = `${total * -1}`;
+    next = `${next * -1}`;
   } else if (Number.isInteger(parseInt(buttonName, 10))) {
     next = `${next || ''}${buttonName}`;
   } else if (buttonName === '.') {

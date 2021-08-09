@@ -35,6 +35,13 @@ test('should calculate the division', () => {
   expect(result.total).toBe('1');
 });
 
+test('should calculate the division', () => {
+  const buttonName = '=';
+  const data = { total: '5', operation: '/', next: '0' };
+  const result = Calculate(data, buttonName);
+  expect(result.total).toBe('Infinity');
+});
+
 test('should calculate the percentage', () => {
   const buttonName = '%';
   const data = { total: 0, operation: null, next: '5' };
@@ -46,5 +53,5 @@ test('Should either be negative or positive', () => {
   const buttonName = '+/-';
   const data = { total: '5', operation: null, next: '5' };
   const result = Calculate(data, buttonName);
-  expect(result.total).toBe(-5);
+  expect(result.total).toBe('-5');
 });
